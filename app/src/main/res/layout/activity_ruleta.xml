@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btt_girar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="114dp"
+        android:text="Tirar" />
+
+    <ImageView
+        android:id="@+id/rule"
+        android:layout_width="wrap_content"
+        android:layout_height="277dp"
+        android:layout_above="@+id/btt_girar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="31dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ruleta" />
+
+    <ImageView
+        android:id="@+id/triangle"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_above="@+id/rule"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="203dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="-11dp"
+        android:src="@drawable/triangledown_106509" />
+
+    <TextView
+        android:id="@+id/resultadoTv"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_above="@+id/triangle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btt_verNum"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="51dp"
+        android:text="Ver ultimas tiradas" />
+
+</RelativeLayout>
